@@ -1,0 +1,226 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DemoApiService" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/light_blue</item>
+        <item name="colorOnPrimary">@color/light_blue</item>
+        <item name="colorPrimaryDark">@color/light_blue</item>
+        <item name="colorAccent">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/darkBlue</item>
+        <!--<item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>-->
+        <item name="colorControlHighlight">@color/rippleColor</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="ImageCropper" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/darkBlue</item>
+    </style>
+
+    <!--<style name="popupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/animation_on</item>
+        <item name="android:windowExitAnimation">@anim/animation_off</item>
+    </style>-->
+
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!--<style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorAccent">@color/light_blue</item>
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>-->
+
+    <!--<style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/top_radius_bg</item>
+    </style>-->
+
+    <style name="Button.DarkBlue" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkBlue</item>
+    </style>
+
+    <style name="CardStyle">
+
+
+        <item name="cardElevation">3dp</item>
+        <item name="cardCornerRadius">@dimen/_10sdp</item>
+
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0.0px</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:clipChildren">false</item>
+    </style>
+
+    <!--  MATERIAL ALERT DIALOG THEME  -->
+    <style name="AlertDialogThemeCustom" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TitleTextStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyTextStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStylesCentered</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStylesCentered</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="BodyTextStyle" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+
+    <style name="PositiveButtonStylesCentered" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="rippleColor">@color/light_blue</item>
+    </style>
+
+    <style name="NegativeButtonStylesCentered" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="rippleColor">@color/light_blue</item>
+    </style>
+    <!--  MATERIAL ALERT DIALOG THEME  -->
+
+    <style name="CircleImageView">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+
+    </style>
+
+    <style name="CornerImageView">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="actionBarSelectableItemTheme">
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TextviewSelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="actionBarItemBackground">
+        <item name="android:theme">@style/actionBarSelectableItemTheme</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+    </style>
+
+
+    <style name="heavyLargeTextBold">
+
+        <item name="android:textSize">@dimen/_30ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="extraLargeTextBold">
+
+        <item name="android:textSize">@dimen/_25ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="largeTextBold">
+
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="largeTextMedium">
+
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="toolbarTextBold">
+
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="toolbarTextMedium">
+
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="normalTextBold">
+
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="normalTextMedium">
+
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="smallTextBold">
+
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="smallTextMedium">
+
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="verySmallTextBold">
+
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="verySmallTextMedium">
+
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>

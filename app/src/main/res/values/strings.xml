@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoApiService</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar_name">Toolbar Name</string>
+    <string name="how_to">How To</string>
+    <string name="server_error">Server Error</string>
+    <string name="retry">Retry</string>
+    <string name="network_error">Network Error\n</string>
+    <string name="button">Button</string>
+    <string name="faq">FAQ</string>
+    <string name="title">Title</string>
+    <string name="description">description</string>
+</resources>

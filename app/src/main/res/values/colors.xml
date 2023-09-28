@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#332F253D</color>
+    <color name="light_blue">#00B6F1</color>
+    <color name="light_blue80">#CC00B6F1</color>
+    <color name="light_blue20">#3300B6F1</color>
+    <color name="darkBlue">#004A80</color>
+    <color name="rippleColor">#1A00B6F1</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#FFFD00</color>
+    <color name="black_40">#66000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+</resources>
