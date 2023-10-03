@@ -38,6 +38,15 @@
         <item name="android:background">@drawable/top_radius_bg</item>
     </style>-->
 
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <!--        <item name="android:background">@drawable/top_radius_bg</item>-->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
     <style name="Button.DarkBlue" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/darkBlue</item>
     </style>

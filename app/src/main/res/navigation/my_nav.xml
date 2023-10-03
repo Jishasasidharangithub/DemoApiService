@@ -11,11 +11,20 @@
         android:label="fragment_button"
         tools:layout="@layout/fragment_button" >
         <action
-            android:id="@+id/action_buttonFragment_to_faqFragment"
-            app:destination="@id/faqFragment" />
+            android:id="@+id/action_buttonFragment_to_updateDialogFragment"
+            app:destination="@id/updateDialogFragment" />
     </fragment>
     <fragment
         android:id="@+id/faqFragment"
         android:name="com.example.demoapiservice.ui.fragment.FaqFragment"
         android:label="FaqFragment" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.demoapiservice.ui.fragment.RegisterFragment"
+        android:label="RegisterFragment" />
+    <dialog
+        android:id="@+id/updateDialogFragment"
+        android:name="com.example.demoapiservice.ui.fragment.UpdateDialogFragment"
+        android:label="fragment_dialog"
+        tools:layout="@layout/fragment_dialog" />
 </navigation>

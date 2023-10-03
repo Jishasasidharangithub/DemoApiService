@@ -11,4 +11,13 @@
     <string name="faq">FAQ</string>
     <string name="title">Title</string>
     <string name="description">description</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company Name</string>
+    <string name="address">Address</string>
+    <string name="area">Area</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="agree_terms">Agree terms</string>
 </resources>
